@@ -10,11 +10,11 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 /* Write your implementation of greet() */
 function greet(timeString) {
-  return timeString
+  /* return timeString */
 }
 
 /* Write your implementation of displayMessage() */
 function displayMessage(greetingString) {
-  const h1Greeting = document.getElementById('greeting');
-  h1Greeting.innerHTML = greetingString;
+  /* const h1Greeting = document.getElementById('greeting'); */
+  /* h1Greeting.innerHTML = greetingString; */
 }
