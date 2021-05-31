@@ -13,10 +13,10 @@ let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
-  return "TEST"
+  return "TEST";
 }
 
 /* Write your implementation of displayMessage() */
 function displayMessage() {
-  h1Greeting.innerHTML = greet()
+  h1Greeting.innerHTML = greet();
 }
