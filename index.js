@@ -11,7 +11,7 @@ function handleClick(e) {
 let web_greeting = document.querySelector("h1#greeting");
 
 /* Write your implementation of greet() */
-function greet(greeting_text) {
+function greet() {
   return "TEST"
 }
 
