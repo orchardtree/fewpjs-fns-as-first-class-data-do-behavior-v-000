@@ -12,9 +12,13 @@ let web_greeting = document.querySelector("h1#greeting");
 
 /* Write your implementation of greet() */
 function greet() {
-  return "Good Morning"
-  return "Good Afternoon"
-  return "Good Evening"
+  if () {
+    return "Good Morning"
+  else if ()
+    return "Good Afternoon"
+  else
+    return "Good Evening"
+  }
 }
 
 /* Write your implementation of displayMessage() */
