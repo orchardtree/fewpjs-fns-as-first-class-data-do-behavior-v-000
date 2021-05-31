@@ -8,8 +8,8 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-let time_field = document.getElementById('time')
-let web_greeting = document.getElementById('greeting');
+let inp_time = document.getElementById('time')
+let h1_greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
