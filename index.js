@@ -12,8 +12,8 @@ function handleClick(e) {
 function greet() {
   const timeString = document.getElementById('time').value;
   const hourString = timeString.split(':')[0];
-  const parseInt (hourString)
-
+  const parsed = parseInt(hourString)
+  return parsed
 }
 
 /* Write your implementation of displayMessage() */
