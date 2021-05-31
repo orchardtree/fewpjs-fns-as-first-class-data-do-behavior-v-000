@@ -14,11 +14,11 @@ let web_greeting = document.querySelector("h1#greeting");
 /* Write your implementation of greet() */
 function greet() {
   if (time_field == "test1") {
-    return "Good Morning"
+    return "Good Morning";
   else if (time_field == "test2")
-    return "Good Afternoon"
+    return "Good Afternoon";
   else
-    return "Good Evening"
+    return "Good Evening";
   }
 }
 
