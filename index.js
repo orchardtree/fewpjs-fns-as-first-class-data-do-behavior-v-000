@@ -10,7 +10,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 /* Write your implementation of greet() */
-function greet(timeString) {
+function greet(timeStr) {
   let greetingString = "ERROR"
   const timeString = document.getElementById('time').value;
   const hourString = timeString.split(':')[0];
