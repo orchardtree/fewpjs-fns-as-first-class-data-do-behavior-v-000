@@ -17,6 +17,6 @@ function greet() {
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage(string) {
+function displayMessage(timeString) {
   h1Greeting.innerHTML = greet();
 }
