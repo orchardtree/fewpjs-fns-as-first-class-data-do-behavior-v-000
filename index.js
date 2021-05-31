@@ -11,6 +11,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(timeString) {
   /* return timeString */
+  return "Good Morning"
 }
 
 /* Write your implementation of displayMessage() */
