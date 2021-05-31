@@ -8,8 +8,8 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-let time_field = document.querySelector("input#time")
-let web_greeting = document.querySelector("h1#greeting");
+let time_field = document.getElementById('time')
+let web_greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
