@@ -22,7 +22,7 @@ function greet() {
   } else {
       greetingString = "Good Evening"; */
   }
-  return greetingString
+  // return greetingString
 }
 
 /* Write your implementation of displayMessage() */
