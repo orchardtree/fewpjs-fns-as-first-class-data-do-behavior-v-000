@@ -8,7 +8,6 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-let input = document.getElementById('time')
 let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
