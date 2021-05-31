@@ -16,6 +16,6 @@ function greet() {
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage {
+function displayMessage() {
   web_greeting.innerHTML = greet()
 }
