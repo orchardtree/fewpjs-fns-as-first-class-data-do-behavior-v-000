@@ -17,5 +17,5 @@ function greet(timeString) {
 /* Write your implementation of displayMessage() */
 function displayMessage(greet(timeString)) {
   // const h1Greeting = document.getElementById('greeting');
-  //h1Greeting.innerHTML = greet(timeString);
+  // h1Greeting.innerHTML = greet(timeString);
 }
