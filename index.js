@@ -19,7 +19,9 @@ function greet(timeString) {
       greetingString = 'Good Afternoon';
   } else if (hourInt >= 17 && hourInt < 24) {
       greetingString = 'Good Evening';
-  } else timestring
+  } else {
+      greetingString = timeString
+  }
   return greetingString
 }
 
