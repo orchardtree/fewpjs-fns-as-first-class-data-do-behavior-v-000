@@ -12,10 +12,10 @@ function handleClick(e) {
 function greet(timeString) {
   let greetingString = 'ERROR'
   const hourString = timeString.split(':')[0];
-  const parsed = parseInt(hourString);
-  if (parsed < 12) {
+  const hourInt = parseInt(hourString);
+  if (hourInt < 12) {
     greetingString = 'Good Morning';
-  } else if (parsed >= 12 && parsed <= 17) {
+  } else if (hourInt >= 12 && parsed <= 17) {
       greetingString = 'Good Afternoon';
   } else {
       greetingString = 'Good Evening';
@@ -24,9 +24,9 @@ function greet(timeString) {
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage(timeString) {
+function displayMessage() {
   const greetingNode = document.getElementById('greeting')
-  if timestring != [0..24] {
+  if timestring != [0...24] {
     "TEST";
   } else {
     greetingNode.innerHTML = greet(timeString);
