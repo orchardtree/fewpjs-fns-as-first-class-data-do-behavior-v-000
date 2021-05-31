@@ -13,15 +13,10 @@ let h1_greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
-  let test = "error"
-  if (time_field == "test1")
-    test = "Good Morning";
-  else
-    test = "Good Evening";
-  return test
+
 }
 
 /* Write your implementation of displayMessage() */
 function displayMessage() {
-  web_greeting.innerHTML = greet()
+
 }
