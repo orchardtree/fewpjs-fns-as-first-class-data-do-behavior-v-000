@@ -10,6 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+let greeting = document.querySelector("h1#greeting");
 function greet() {
 
 }
