@@ -12,6 +12,6 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 let greeting = document.querySelector("h1#greeting");
 function greet() {
-  
+
 }
 /* Write your implementation of displayMessage() */
