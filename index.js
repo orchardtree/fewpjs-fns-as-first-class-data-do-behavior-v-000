@@ -28,7 +28,7 @@ function displayMessage(timeString) {
   const greetingNode = document.getElementById('greeting')
   if timestring != [0...24] {
     "TEST";
-  else
-    greetingNode.innerHTML = greet(timeString)
+  } else {
+    greetingNode.innerHTML = greet(timeString);
   }
 }
