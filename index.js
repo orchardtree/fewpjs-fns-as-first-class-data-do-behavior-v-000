@@ -13,9 +13,9 @@ function greet() {
   const timeString = document.getElementById('time').value;
   const hourString = timeString.split(':')[0];
   const parsed = parseInt(hourString);
-  if parsed == 18
+  if (parsed == 18) {
     return "Good Morning"
-  else {
+  } else {
     return "Good Evening"
   }
 }
