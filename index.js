@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 let web_greeting = document.querySelector("h1#greeting");
-function greet() {
-  web_greeting.innerHTML = "TEST"
+function greet(greeting_text) {
+  web_greeting.innerHTML = greeting_text
 }
 /* Write your implementation of displayMessage() */
