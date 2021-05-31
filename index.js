@@ -9,7 +9,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 let input = document.getElementById('time')
-let h1 = document.getElementById('greeting');
+let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
@@ -18,5 +18,5 @@ function greet() {
 
 /* Write your implementation of displayMessage() */
 function displayMessage(greetingString) {
-h1.innerHTML = greetingString
+  h1Greeting.innerHTML = greetingString;
 }
