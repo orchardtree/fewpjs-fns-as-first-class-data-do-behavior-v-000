@@ -23,7 +23,7 @@ function greet(timeString) {
   } else {
       greetingString = "Good Evening";
   } */
-  return parsed
+  return parsed < 12
 }
 
 /* Write your implementation of displayMessage() */
