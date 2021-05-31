@@ -16,7 +16,7 @@ function greet() {
   const parsed = parseInt(hourString);
   if (parsed < 12) {
     greetingString = "Good Morning";
-  } else if (parsed < 12 and parsed > 5) {
+  } else if (parsed < 12 and parsed < 5) {
       greetingString = "Good Afternoon";
   } else {
       greetingString = "Good Evening";
