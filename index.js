@@ -12,7 +12,7 @@ function handleClick(e) {
 const timeValue = document.getElementById('time').value
 
 function greet(time) {
-
+  return timeValue
 }
 
 /* Write your implementation of displayMessage() */
