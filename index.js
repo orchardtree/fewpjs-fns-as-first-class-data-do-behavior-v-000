@@ -8,8 +8,8 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-let inp_time = document.getElementById('time')
-let h1_greeting = document.getElementById('greeting');
+let inpTime = document.getElementById('time')
+let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
@@ -18,5 +18,5 @@ function greet() {
 
 /* Write your implementation of displayMessage() */
 function displayMessage() {
-
+  h1Greeting.innerHTML = "TEST"
 }
