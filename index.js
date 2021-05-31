@@ -23,7 +23,7 @@ function greet() {
   } else {
       greetingString = "Good Evening";
   } */
-  return greetingString
+  return parsed
 }
 
 /* Write your implementation of displayMessage() */
