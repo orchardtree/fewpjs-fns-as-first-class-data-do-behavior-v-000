@@ -11,7 +11,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 const timeValue = document.getElementById('time').value
 
-function greet(time) {
+function greet(timeValue) {
   return timeValue
 }
 
