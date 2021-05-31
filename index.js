@@ -12,7 +12,7 @@ let input = document.getElementById('time')
 let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
-function greet() {
+function greet(timeString) {
   let greetingString = "TEST"
 }
 
