@@ -9,6 +9,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 /* Write your implementation of greet() */
+const time = document.getElementById('time').value
 
 function greet(time) {
 
