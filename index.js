@@ -15,3 +15,6 @@ function greet(greeting_text) {
   web_greeting.innerHTML = greeting_text
 }
 /* Write your implementation of displayMessage() */
+function displayMessage {
+  
+}
