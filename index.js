@@ -23,6 +23,7 @@ function greet() {
       greetingString = "Good Evening";
   }
   console.log(greetingString)
+  return(greetingString)
 }
 
 /* Write your implementation of displayMessage() */
