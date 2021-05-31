@@ -8,14 +8,13 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-let h1Greeting = document.getElementById('greeting');
-
 /* Write your implementation of greet() */
 function greet(timeString) {
-  let greetingString = "TEST"
+
 }
 
 /* Write your implementation of displayMessage() */
 function displayMessage(greetingString) {
+  const h1Greeting = document.getElementById('greeting');
   h1Greeting.innerHTML = greetingString;
 }
