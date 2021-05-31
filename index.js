@@ -10,8 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-let greeting = document.querySelector("h1#greeting");
+let web_greeting = document.querySelector("h1#greeting");
 function greet() {
-
+  web_greeting.innerHTML = "TEST"
 }
 /* Write your implementation of displayMessage() */
