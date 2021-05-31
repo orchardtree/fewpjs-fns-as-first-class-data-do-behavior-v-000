@@ -14,13 +14,13 @@ function greet(timeString) {
   const hourString = timeString.split(':')[0];
   const hourInt = parseInt(hourString);
   if (hourInt < 12) {
-    greetingString = 'Good Morning';
-  } else if (hourInt >= 12 && hourInt <= 17) {
-      greetingString = 'Good Afternoon';
-  } else if (hourInt >= 17 && hourInt < 24) {
-      greetingString = 'Good Evening';
-  } else {
-      greetingString = timeString
+        greetingString = 'Good Morning';
+    } else if (hourInt >= 12 && hourInt <= 17) {
+        greetingString = 'Good Afternoon';
+    } else if (hourInt >= 17 && hourInt < 24) {
+        greetingString = 'Good Evening';
+    } else {
+        greetingString = timeString
   }
   return greetingString
 }
