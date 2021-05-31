@@ -28,5 +28,5 @@ function greet(timeString) {
 /* Write your implementation of displayMessage() */
 function displayMessage(greetingString) {
   const greetingNode = document.getElementById('greeting')
-  greetingNode.innerText = 'TEST'
+  greetingNode.innerText = greetingString
 }
