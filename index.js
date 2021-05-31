@@ -13,7 +13,7 @@ let h1Greeting = document.getElementById('greeting');
 
 /* Write your implementation of greet() */
 function greet() {
-  return "TEST";
+
 }
 
 /* Write your implementation of displayMessage() */
