@@ -12,7 +12,6 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(timeString) {
   let greetingString = 'ERROR'
-  // const timeString = document.getElementById('time').value;
   const hourString = timeString.split(':')[0];
   const parsed = parseInt(hourString);
   if (parsed < 12) {
