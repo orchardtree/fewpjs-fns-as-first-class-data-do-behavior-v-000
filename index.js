@@ -16,5 +16,5 @@ function greet(greeting_text) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage {
-  
+
 }
